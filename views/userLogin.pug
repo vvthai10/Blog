@@ -1,0 +1,92 @@
+extend base
+
+block content 
+    .main
+        .container
+            .row.main__user
+                .col-3.main__user-header
+                    ul.main__user-header--list
+                        li.main__user-header--item(class=`${tag == 0 ? 'main__user-header--item-active' : ''}`)
+                            a.main__user-header--link(href='/me')
+                                i.fa.fa-user.fa-2x.main__user-header--icon(aria-hidden='true')
+                                | Trang cá nhân
+                        li.main__user-header--item(class=`${tag == 1 ? 'main__user-header--item-active' : ''}`)
+                            a.main__user-header--link(href='/me?setting')
+                                i.fa.fa-cog.fa-2x.main__user-header--icon(aria-hidden='true')
+                                | Cài đặt
+                        li.main__user-header--item(class=`${tag == 2 ? 'main__user-header--item-active' : ''}`)
+                            a.main__user-header--link(href='/me?recycleBin')
+                                i.fa.fa-trash.fa-2x.main__user-header--icon(aria-hidden='true')
+                                | Thùng rác
+                if (tag === 0)
+                    .col-9.main__user-detail
+                        span.main__user-detail--header
+                            div(style='padding-left: 40px; padding-right: 12px;')
+                                img.main__user-detail--img(src=`/images/users/${user.photo}` alt='Vũ Văn Thái')
+                            .main__user-detail--name
+                                span= user.name
+                                span= user.email
+                            div(style='position: absolute; border-bottom: 2px solid #000; width: 100%; top: 85%; z-index: -100;')
+                        .main__user-detail--title Các bài blog của bạn
+                        if (blogs.length == 0)
+                            p Bạn chưa tạo blog nào cả.
+                                a(href='/writeBlog' style="padding-left: 5px") Hãy viết một blog cho riêng bạn nào!
+                        ul.main__user-detail--list
+                            each blog in blogs
+                                li.main__user-detail--item
+                                    a.main__user-detail--item-title(href = `/blog/${blog.slug}`)= blog.name
+                                    button.btn.btn-outline-danger(type='button' id="btn-remove-blog" slug =`${blog.slug}`) Xóa
+                else if (tag == 1)
+                    .col-9.main__user-detail
+                        .main__user-detail--title Cài đặt
+                        form.form-change-info(method="post" action="api/v1/uploads/photoUser" enctype="multipart/form-data")
+                            .form-group
+                                label.main__user-detail(for='my-name') Name
+                                input#my-name.form-control.main__user-detail--input(type='text'  aria-describedby='name' value=`${user.name}` name='my-name' rules='required')
+                                span.form-message
+                            .form-group
+                                label.main__user-detail(for='my-email') Email
+                                input#my-email.form-control.main__user-detail--input(type='text' value=`${user.email}` name='my-email' rules='required|email')
+                                span.form-message
+                            .form-group(style='display: flex;\
+                            flex-direction: row;\
+                            align-items: center;\
+                            justify-content: left;')
+                                img.main__user-detail--input-img(src=`/images/users/${user.photo}` alt=`${user.email}`)
+                                label(for='photo' style='font-size: 17px; border-bottom: 5px solid #7dd56f;\
+                                cursor: pointer;\
+                                margin-left: 30px;') Choose new photo
+                                input#photo.form__upload(style='display: none;' type='file' name='photoUserUpload')
+                            button.btn.btn-primary.main__user-detail--btn(type='submit') Cập nhật
+                        div(style='border: 1px solid rgba(0,0,0,0.1); margin: 50px 0;')
+                        .main__user-detail--title Thay đổi mật khẩu
+                        form.form-change-password
+                            .form-group
+                                label.main__user-detail(for='current-password') Mật khẩu hiện tại
+                                input#current-password.form-control.main__user-detail--input(type='password' name='current-password' aria-describedby='current-password' placeholder='••••••••' rules='required|min:8')
+                                span.form-message
+                            .form-group
+                                label.main__user-detail(for='new-password') Mật khẩu mới
+                                input#new-password.form-control.main__user-detail--input(type='password' placeholder='••••••••' name='new-password' rules='required|min:8')
+                                span.form-message
+                            .form-group
+                                label.main__user-detail(for='confirm-password') Nhập lại mật khẩu mới
+                                input#confirm-password.form-control.main__user-detail--input(type='password' placeholder='••••••••' name='confirm-password' rules='required|min:8')
+                                span.form-message
+                            button.btn.btn-primary.main__user-detail--btn(type='submit') Cập nhật mật khẩu mới
+                else if (tag == 2)
+                    .col-9.main__user-detail
+                        .main__user-detail--title Thùng rác của bạn
+                        if (blogs.length == 0)
+                            p Bạn chưa xóa blog nào cả
+                        ul.main__user-detail--list
+                            each blog in blogs
+                                li.main__user-detail--item
+                                    a.main__user-detail--item-title(href = `/blog/${blog.slug}`)= blog.name
+                                    div
+                                        button.btn.btn-outline-info(type='button' style="margin-right: 5px;" id="btn-recycle-blog" slug =`${blog.slug}`) Khôi phục 
+                                        button.btn.btn-outline-danger(type='button' id="btn-deleted-blog" slug =`${blog.slug}`) Xóa
+
+            .row(style="display: none;")
+                p.nameUserHidden= user.name
+                p.emailUserHidden= user.email

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/images/logo-1.PNG" rel="shortcut icon" type="image/x-icon">
+    <title>Blog | Home</title>
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets//css/base.css">
+    <link rel="stylesheet" href="./assets//css/main.css">
+    <!--Link CSS-->
+    
+    <!--Link FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--Link FONTS-->
+</head>
+<body>
+    <div class="app">
+        <!--HEADER-->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-8 col-7">
+                        <a class="header__logo" href="#">
+                            <img class="header__logo--image" src="./assets//images/logo-1.PNG" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-0 col-0 header__name--website">
+                        <span class="">VVT BLOG - Chia sẻ về kiến thức về công nghệ thông tin</span>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-5 header__login" >
+                        <button type="button" class="btn btn-outline-primary btn-lg header__btn header__login--btn">Viết Blog</button>
+                        <div class="header__user--image-box">
+                            <img class="header__user--image" src="./assets/images/user-default.jpg">
+                            <ul class="header__user-act--list">
+                                <li class="header__user-act--item"><a href="#">Trang cá nhân</a></li>
+                                <li class="header__user-act--item"><a href="#">Viết blog</a></li>
+                                <li class="header__user-act--item"><a href="#">Cài đặt</a></li>
+                                <li class="header__user-act--item"><a href="#">Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-5 header__unLogin">
+                        <button type="button" class="btn btn-outline-info btn-lg header__btn" style="margin-right: 10px;">Đăng nhập</button>
+                        <button type="button" class="btn btn-outline-success btn-lg header__btn">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--HEADER-->
+
+        <!--MAIN-->
+        <div class="main">
+            <div class="container">
+                <div class="row main__blog">
+                    <div class="col-2 main__blog-info">
+                        <a class="main__author--name" href="#">Dũng Hồ</a>
+                        <div style="border-top: 1px solid rgba(0,0,0,0.1); margin: 20px 0 10px 0;"></div>
+                        <div class="main__interact">
+                            <div class="interact-liked">
+                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M244 84L255.1 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 0 232.4 0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84C243.1 84 244 84.01 244 84L244 84zM255.1 163.9L210.1 117.1C188.4 96.28 157.6 86.4 127.3 91.44C81.55 99.07 48 138.7 48 185.1V190.9C48 219.1 59.71 246.1 80.34 265.3L256 429.3L431.7 265.3C452.3 246.1 464 219.1 464 190.9V185.1C464 138.7 430.4 99.07 384.7 91.44C354.4 86.4 323.6 96.28 301.9 117.1L255.1 163.9z"></path></svg>
+                                <span class="count-like">10</span>
+                            </div>
+                            <div class="interact-comment">
+                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="comment" class="svg-inline--fa fa-comment " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 32C114.6 32 .0272 125.1 .0272 240c0 47.63 19.91 91.25 52.91 126.2c-14.88 39.5-45.87 72.88-46.37 73.25c-6.625 7-8.375 17.25-4.625 26C5.818 474.2 14.38 480 24 480c61.5 0 109.1-25.75 139.1-46.25C191.1 442.8 223.3 448 256 448c141.4 0 255.1-93.13 255.1-208S397.4 32 256 32zM256.1 400c-26.75 0-53.12-4.125-78.38-12.12l-22.75-7.125l-19.5 13.75c-14.25 10.12-33.88 21.38-57.5 29c7.375-12.12 14.37-25.75 19.88-40.25l10.62-28l-20.62-21.87C69.82 314.1 48.07 282.2 48.07 240c0-88.25 93.25-160 208-160s208 71.75 208 160S370.8 400 256.1 400z"></path></svg>
+                                <span class="count-comment">5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 main__blog-content">
+                        <span class="col-8 main__blog-title">Setup Môi Trường Lập Trình Nhanh Chóng Cho Desktop. Phần 2: Setup cho Windows</span> 
+                        <div class="main__detail">
+                            <img class="main__author--image" src="./assets/images/user-default.jpg" alt="">
+                            <div class="main__detail-info">
+                                <a class="main__author--name" href="#">Dũng Hồ</a>
+                                <div class="main__detail-time">
+                                    <span class="main__detail-timeCreated">2 tháng trước</span>
+                                    <span class="main__detail-timeRead">11 phút đọc</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog_content-main">
+                            Trong phần trước, mình đã cũng các bạn tìm hiểu về một cách setup phần mềm nhanh gọn lẹ. Trong phần này, mình sẽ cùng các bạn setup môi trường làm việc cho Windows bằng các dòng lệnh nhé.
+                            <br>
+                            Mình khuyến khích các bạn dành thời gian đọc phần 1 để hiểu bản chất những gì mình sẽ làm trong phần này.
+                            <br>
+                            Cách setup trong phần này có thể khá phức tạp và lằng nhằng với một số bạn. Bạn nên chuẩn bị một chút kiên định và thật bình tĩnh để đọc tiếp. Người ta có câu là: “Khổ trước sướng sau, thế mới giàu” =))
+                            <br>
+                            Bạn không nên áp dụng cái này thẳng vào máy bạn vội. Thay vào đó, mình khuyến khích bạn dùng máy ảo Windows để thí nghiệm với các câu lệnh trước, để biết được những khả năng có thể xảy ra khi sử dụng phương pháp này. Về máy ảo mình khuyên các bạn nên dùng VirtualBox của Oracle bởi dễ sử dụng và có nhiều tính năng hay ho mà chúng ta sẽ cần. Còn về cách cài máy ảo Windows trên VirtualBox thì các bạn nên tự search và tự làm nhé.
+                            <br>
+                            Ngay sau khi các bạn cài xong máy ảo, mở máy ảo lên và để cho vào được Windows lần đầu. Lúc này, mở giao diện của VirtualBox lên.
+                        </div>
+                        <div class="main__interact">
+                            <div class="interact-liked">
+                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M244 84L255.1 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 0 232.4 0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84C243.1 84 244 84.01 244 84L244 84zM255.1 163.9L210.1 117.1C188.4 96.28 157.6 86.4 127.3 91.44C81.55 99.07 48 138.7 48 185.1V190.9C48 219.1 59.71 246.1 80.34 265.3L256 429.3L431.7 265.3C452.3 246.1 464 219.1 464 190.9V185.1C464 138.7 430.4 99.07 384.7 91.44C354.4 86.4 323.6 96.28 301.9 117.1L255.1 163.9z"></path></svg>
+                                <span class="count-like">10</span>
+                            </div>
+                            <div class="interact-comment">
+                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="comment" class="svg-inline--fa fa-comment " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 32C114.6 32 .0272 125.1 .0272 240c0 47.63 19.91 91.25 52.91 126.2c-14.88 39.5-45.87 72.88-46.37 73.25c-6.625 7-8.375 17.25-4.625 26C5.818 474.2 14.38 480 24 480c61.5 0 109.1-25.75 139.1-46.25C191.1 442.8 223.3 448 256 448c141.4 0 255.1-93.13 255.1-208S397.4 32 256 32zM256.1 400c-26.75 0-53.12-4.125-78.38-12.12l-22.75-7.125l-19.5 13.75c-14.25 10.12-33.88 21.38-57.5 29c7.375-12.12 14.37-25.75 19.88-40.25l10.62-28l-20.62-21.87C69.82 314.1 48.07 282.2 48.07 240c0-88.25 93.25-160 208-160s208 71.75 208 160S370.8 400 256.1 400z"></path></svg>
+                                <span class="count-comment">5</span>
+                            </div>
+                        </div>
+                        <div class="main__blog-other">
+                            <div class="main__blog-sameAuthor">Bài đăng cùng tác giả</div>
+                            <ul class="main__blog-sameAuthor--list">
+                                <li><a href="#">Setup Môi Trường Lập Trình Nhanh Chóng Cho Desktop. Phần 1: Lý thuyết</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MAIN-->
+
+        <!--FOOTER-->
+        <div class="footer" >
+            <div class="container" style="padding-bottom: 30px;">
+                <div class="row" style="justify-content: space-around;">
+                    <div class="col-sm-3 col-12 pt-2" style="display: flex;
+                        flex-direction: column;">
+                            <a href="#">
+                                <img src="./assets/images/logo-1.PNG" alt="logo web" style="width: 50%">
+                            </a>
+                            <span style="padding-top: 5px; font-size: 1rem; font-weight: 500;">Cùng học tập - phát triển - có
+                                gấu
+                                - thành công</span>
+                    </div>
+                    
+                    <div class="footer__info">
+                        <div class="col-sm-9 col-12 pt-2" style="position: relative; display: flex;
+                        flex-direction: column;">
+                            <span style="font-size: 12px;
+                            font-weight: 500;">Thành viên phát triển: Vũ Văn Thái - Sinh viên khoa Công nghệ thông tin</span>
+                            <span style="    font-size: 18px;
+                            font-weight: 600;">Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia thành phố Hồ Chí Minh</span>
+                            <span style="font-size:10px;">Liên hệ: 20120579@student.hcmus.edu.vn - vuvanthai1410@gmail.com -
+                                0796512568 -
+                                fb.com/vvthai1410</span>
+                            <span style="    position: absolute;
+                            top: 100%;">© 2022 - VVT Blog - Vũ Văn Thái</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER-->
+
+        <!--COMMENT-->
+        <div class="box-comment">
+            <div class="comment">
+                <div class="container">
+                    <div class="row">
+                        <div class="btn-close">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" class="svg-inline--fa fa-xmark " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg>
+                        </div>
+                        <span class="num-comment">4 bình luận</span>
+                        <span class="comment-note">(Nếu thấy bình luận span các bạn bấm report giúp mình nhé)</span>
+                        <div class="comment__write">
+                            <div class="comment__write--main">
+                                <img src="./assets/images/user-default.jpg" alt="" class="comment__img">
+                                <input type="text" class="comment__input" placeholder="Viết bình luận của bạn">
+                            </div>
+                            <div class="comment__choice">
+                                <button class="comment__btn comment__btn--del">Hủy</button>
+                                <button class="comment__btn comment__btn--take">Bình luận</button>
+                            </div>
+                        </div>
+                        <ul class="comment__list">
+                            <li class="comment__item">
+                                <img src="./assets//images/user-default.jpg" alt="" class="comment__img">
+                                <div class="comment__detail">
+                                    <div class="comment__detail--main">
+                                        <a class="comment__detail--title">Dương Quốc</a>
+                                        <span class="comment__detail--content">Còn một cách khác để có thể miêu tả về nội dung bài này.</span>
+                                    </div>
+                                    <div class="comment__interact">
+                                        <a href="#" class="comment__like">Thích</a>
+                                        <a href="#" class="comment__reply">Trả lời</a>
+                                        <span href="#" class="comment__time">23 ngày trước</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--COMMENT-->
+    </div>
+
+    <!--Link JS BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/main.js"></script>
+    <!--Link JS BOOTSTRAP-->
+</body>
+</html>

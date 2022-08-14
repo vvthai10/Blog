@@ -1,0 +1,40 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "This is my blog, the first website of mine",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:js": "parcel watch ./public/javascript/index.js --out-dir ./public/javascript --out-file bundle.js"
+  },
+  "author": "Thai Vu Van",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "connect-multiparty": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dompurify": "^2.3.10",
+    "dotenv": "^16.0.1",
+    "editor.md": "^1.5.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "jsdom": "^20.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.7",
+    "parcel-bundler": "^1.12.5",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "sharp": "^0.30.7",
+    "slugify": "^1.6.5",
+    "string-strip-html": "^8.3.0",
+    "validator": "^13.7.0",
+    "wysiwyg-editor-node-sdk": "^4.0.13"
+  }
+}

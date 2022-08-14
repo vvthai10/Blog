@@ -1,0 +1,31 @@
+extend base
+
+block content 
+    .main
+        .container
+            .row.main__user
+                .col-3.main__user-header
+                    ul.main__user-header--list
+                        li.main__user-header--item(class=`main__user-header--item-active`)
+                            a.main__user-header--link(href=`/user/${userOther._id}`)
+                                i.fa.fa-user.fa-2x.main__user-header--icon(aria-hidden='true')
+                                | Trang cá nhân
+                .col-9.main__user-detail
+                    span.main__user-detail--header
+                        div(style='padding-left: 40px; padding-right: 12px;')
+                            img.main__user-detail--img(src=`/images/users/${userOther.photo}` alt='Vũ Văn Thái')
+                        .main__user-detail--name
+                            span= userOther.name
+                            span= userOther.email
+                        div(style='position: absolute; border-bottom: 2px solid #000; width: 100%; top: 85%; z-index: -100;')
+                    .main__user-detail--title Các bài blog của bạn
+                    if (blogs.length == 0)
+                        p Tôi chưa tạo blog nào cả.
+                    ul.main__user-detail--list
+                        each blog in blogs
+                            li.main__user-detail--item
+                                a.main__user-detail--item-title(href = `/blog/${blog.slug}`)= blog.name
+
+            .row(style="display: none;")
+                p.nameUserHidden= userOther.name
+                p.emailUserHidden= userOther.email

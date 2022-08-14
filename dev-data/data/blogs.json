@@ -1,0 +1,113 @@
+[
+    {
+        "_id": "5c88fa8cf4afda39709c2955",
+        "name": "Cách sử dụng Routing trong ReactJS",
+        "topic": "machine-learning",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về việc xác định Routing.",
+        "createdAt": "2022-06-04T03:33:24.438+00:00",
+        "timeRead": 7,
+        "imageCover": "blog-1.png",
+        "author": "62e638b52e1abe09b053e2d8",
+        "mainContent": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2956",
+        "name": "Cách tạo theme VSCode và Publish lên Marketplace",
+        "topic": "other",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về việc xây dựng extension tạo theme.",
+        "timeRead": 4,
+        "imageCover": "blog-2.png",
+        "author": "62e638b52e1abe09b053e2d8",
+        "mainContent": "Chắc có nhiều người cũng giống em, thích dùng các Theme bên ngoài hơn là dùng Dark++. Nhưng hầu hết các theme đều có điểm là mình không vừa mắt, được chỗ này mất chỗ kia.\n Vì thế em quyết tâm làm bằng được 1 theme cho riêng mình. Thế là em bắt đầu tìm đọc hướng dẫn và video của một số lập trình viên nước ngoài vì ở VN mình hầu như không ai hướng dẫn chi tiết về cái này. Sau mấy ngày vật vã em đã tạo được MANNHN. Mọi người tải và cho em xin nhận xét ạ, nếu thấy hợp có thể dùng luôn ạ :) :)"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2957",
+        "name": "Setup môi trường lập trình nhanh chóng cho desktop",
+        "topic": "other",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về cách tạo lập cho môi trường cho máy mới.",
+        "timeRead": 15,
+        "imageCover": "blog-3.png",
+        "author": "62e639962e1abe09b053e2da",
+        "mainContent": "Cách setup trong phần này có thể khá phức tạp và lằng nhằng với một số bạn. Bạn nên chuẩn bị một chút kiên định và thật bình tĩnh để đọc tiếp. Người ta có câu 'Khổ trước sướng sau, thế mới nghèo' :)))\n Bạn không nên áp dụng cái này thẳng vào máy bạn vội. Thay vào đó, mình khuyên bạn nên dùng máy ảo để thí nghiệm với các câu lệnh trước, để biết được khả năng sử dụng và tránh gặp cái lỗi trên máy thật gây nên lỗi về hệ điều hành,... Các môi trường máy bạn bạn có thể dùng như là VirtualBox. Cái này khá là dễ cài nê các bạn tự cài và sử dụng nhé"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2958",
+        "name": "Lộ trình học C",
+        "topic": "deep-learning",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về việc học lập trình cơ bản với C.",
+        "timeRead": 8,
+        "imageCover": "blog-4.png",
+        "author": "62e639962e1abe09b053e2da",
+        "mainContent": "Học phải đi đôi với hành vì vậy nên khi học C#, .NET mình nghĩ các bạn nên tự mình xây dựng những dự án cá nhân. Bên dưới là 1 dự án mẫu với yêu cầu và các chức năng cơ bản.\nPhát triển trang blog cho lập trình viên.\nHiển thị 10 danh sách bài viết mới nhất cho người dùng xem, phân trang. Hiển thị danh sách bài viết theo danh mục.\nCho phép quản lý danh mục bài viết (category) như C#, Java, PHP, Database, BE, FE… Xem danh sách, tìm kiếm, phân trang, thêm, xóa, sửa danh mục category.\nQuản lý bài viết (Post) thuộc về một danh mục (xategory). Xem danh sách, tìm kiếm, phân trang, thêm, xóa, sửa bài viết."
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "name": "Sử dụng PropTypes trong ReactJS",
+        "topic": "computer-science",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về việc sử dụng ProTypes trong ReactJS một cách cơ bản nhất.",
+        "timeRead": 6,
+        "imageCover": "blog-5.png",
+        "author": "62e63b41702d7b07ac6c2e07",
+        "mainContent": "Trong thực tế khi truyền dữ liệu cho các component chúng ta sẽ gặp các vấn đề liên quan đến kiểu dữ liệu. Đối với một ứng dụng React thông thường chúng ta có thể sử dụng Flow hoặc TypeScript để giải quyết những vấn đề trên. Nhưng vẫn có một giải pháp khác đấy chính là sử dụng PropTypes.\nPropType là một trình xác thực các props truyền vào là hợp lệ. Vì lí đo performance (hiệu suất), thì propTypes sẽ chỉ được kiểm tra trong môi trường development mode.\nTrong môi trường development mode, khi chúng ta cố tình truyền sai kiểu dữ liệu của một prop thì trong console của trình duyệt nó sẽ cảnh báo cho chúng ta:\nKhi JSX, nếu một prop ta truyền một prop mà không kèm theo giá trị thì nó sẽ có giá trị là true, nhưng nếu prop đấy chúng ta không truyền prop đó thì nó sẽ có giá trị là undefine.\nNhưng chúng ta mong muốn rằng khi không truyền gì cả thì nó sẽ nhận giá trị là false. Vậy nên chúng ta cũng có thể thêm một thuộc tính defaultProps trước khi export để xác định giá trị mặt định cho các prop khi chúng ta không truyền gì cả."
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2960",
+        "name": "Rèn luyện tư duy và áp dụng kiến thức đã học vào thực hành",
+        "topic": "web-developer",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn về cách rèn luyện tư duy giữa việc học và thực hành",
+        "timeRead": 11,
+        "imageCover": "blog-6.png",
+        "author": "62e63b41702d7b07ac6c2e07",
+        "mainContent": "Mình có đọc qua vài bình luận ở dưới một số video trong khóa JS cơ bản và thấy một số bạn muốn có thêm bài tập thực hành (cụ thể là phần mảng/array và vòng lặp/loop), ngoài ra mình thấy khóa đó anh Sơn cũng chưa nói nhiều về phương pháp tư duy cũng như thuật toán nên mình muốn chia sẻ tới các bạn một số keyword để research cũng như thực hành để cải thiện kỹ năng bản thân (ngoài ra cũng test luôn chức năng viết blog xD trên F8)\nVề sách thì có mình đang đọc quyển algorithm grokking (chuyên về thuật toán, gồm psuedo code và hình ảnh, các tiếp cận dành cho người người mới bắt đầu nên cực dễ hiều, chỉ cần biết một số từ vựng tiếng anh là được) và javascript the definitive guide để hiều thêm về JS"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2961",
+        "name": "Update cách sử dụng Package SASS",
+        "topic": "data-science",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về việc sử dụng SASS.",
+        "timeRead": 20,
+        "imageCover": "blog-7.png",
+        "author": "62e6528a0d13553c6c08694f",
+        "mainContent": "Tên cũ là package này Node-sass. Nhưng gần đây họ đã bỏ hỗ trợ Node-sass nên khi cài bạn sẽ nhận được warning của npm( hoặc yarn) khi cài đặt. Trên trang npm thì họ cảnh báo( warning) rằng nó vẫn nhận được cập nhật tính năng nhưng không nhận được các bản cập nhật tính năng.\nMình chỉ compile 1 file scss thành 1 file css tại folder đầu ra. Tuy nhiên bản mới này nó tạo thành 1 file .css.map rất khó chịu. Mình sẽ sử dụng 1 flag --embed-source-map nó sẽ nhúng vào file đầu ra. Như bạn thấy thì ta không cần thêm flag --output nữa. Nó sẽ tự nhận diện và xuất ra file css. --watch thì nó sẽ lắng nghe file main.scss và nếu có thay đổi mà bạn save nó sẽ compile ngay lập tức.\nChúc các bạn học tập thật tốt nhé ^^."
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2962",
+        "name": "Tailwind css và cách cài đặt cơ bản ",
+        "topic": "mobile-apps",
+        "description": "Bạn đang lo lắng vì đặt tên class, sợ bị trùng css không mong muốn, hay muốn một framework hỗ trợ css dễ học mà dễ tùy biến theo ý thích đã có tailwind css.",
+        "timeRead": 6,
+        "imageCover": "blog-8.png",
+        "author": "62e6528a0d13553c6c08694f",
+        "mainContent": "Tailwind css là một utility-first CSS framework nó hỗ trợ phát triển xây dựng nhanh chóng giao diện người dùng, nó cũng có điểm chung giống như Bootstrap & điểm làm nó nổi bật hơn cả đó là chúng ta có thể tùy biến phát triển css theo cách mà chúng ta định nghĩa ra.\nTailwind css là framework rất dễ học cho người mới bắt đầu sử dụng css, tuy nhiên để sử dụng tốt thì cần phải nắm vững kiến thức của css thuần trước.\nTrên là giới thiệu cũng như cách cài đặt tailwind css cơ bản, mọi người có thể tham khảo cách sử dụng cũng như cách cài đặt trong 1 số framework khác https://tailwindcss.com."
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2963",
+        "name": "Hướng dẫn quét mã QR code trên điện thoại Android và iOS một cách dễ dàng",
+        "topic": "web-developer",
+        "description": "Trong bài viết này, mình sẽ chia sẻ các cách nhanh chóng để quét mã QR ngay lập tức trên điện thoại Android và iOS.",
+        "timeRead": 9,
+        "imageCover": "blog-9.png",
+        "author": "62e638b52e1abe09b053e2d8",
+        "mainContent": "Zalo là ứng dụng liên lạc phổ biến nhất dành cho người Việt Nam và chức năng quét mã QR là tính năng được sử dụng thường xuyên để đăng nhập trên máy tính mà không cần mật khẩu. Ngoài ra, bạn có thể sử dụng tính năng này để quét mã QR khác, chẳng hạn như khai báo y tế tại nơi công cộng. Dưới đây là hướng dẫn sử dụng nhanh ứng dụng Zalo để quét mã QR Code:\nBước 1: Các bạn chọn ứng dụng Zalo, tiếp tục chạm biểu tượng Thêm tại góc bên phải dưới màn hình. Sau đó, chọn vào biểu tượng QR Code tại góc trên bên phải màn hình.\nBước 2: Di chuyển camera đến vùng có mã QR để quét. Ngay lập tức Zalo sẽ điều hướng đến trang web cần đến mà bạn không cần phải làm thêm bất kỳ thao tác nào khác."
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "name": "Tìm hiểu về HTML và CSS",
+        "topic": "web-developer",
+        "description": "Khai bút đầu xuân mình sẽ viết về chủ đề vô cùng quen thuộc với anh em lập trình web. Đó là HTML, CSS. Bài viết sẽ giới thiệu về HTML, CSS là gì, các thẻ cơ bản HTML, CSS. Mục đích của bài viết để tổng hợp kiến thức cơ bản về HTML, CSS.",
+        "timeRead": 3,
+        "imageCover": "blog-10.png",
+        "author": "62e638b52e1abe09b053e2d8",
+        "mainContent": "HTML là chữ viết tắt Hypertext Markup Languageanguage, là ngôn ngữ được sử dụng rộng rãi nhất để viết các trang Web. Hypertext là cách mà các trang Web (các tài liệu HTML) được kết nối với nhau. Và như thế, đường link có trên trang Web được gọi là Hypertext. Như tên gọi đã gợi ý, HTML là ngôn ngữ đánh dấu bằng thẻ (Markup Language), nghĩa là sử dụng HTML để đánh dấu một tài liệu text bằng các thẻ (tag) để nói cho trình duyệt Web cách để cấu trúc nó để hiển thị ra màn hình. Vậy HTML là ngôn ngữ sử dụng các thẻ để xây dựng nên khung sườn của 1 website.\nCSS là chữ viết tắt của Cascading Style Sheets, nnó giúp tạo nên màu sắc hình ảnh, kiểu dáng, … cho trang HTML. Nói ngắn gọn hơn là ngôn ngữ tạo phong cách cho trang web. Bạn có thể hiểu đơn giản rằng, nếu HTML đóng vai trò định dạng các phần tử trên website như việc tạo ra các đoạn văn bản, các tiêu đề, bảng,…thì CSS sẽ giúp chúng ta có thể thêm style vào các phần tử HTML đó như đổi bố cục, màu sắc trang, đổi màu chữ, font chữ, thay đổi cấu trúc…"
+    },
+    {
+        "_id": "5c88fa8cf4afda39709c2965",
+        "name": "Vấn đề tình cảm thời sinh viên",
+        "topic": "web-developer",
+        "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về câu chuyện yêu đương của mình trong thời học sinh(sinh viên)",
+        "timeRead": 3,
+        "imageCover": "blog-11.png",
+        "author": "62e63b41702d7b07ac6c2e07        ",
+        "mainContent": "Tình yêu học sinh là một cái gì đó rất là tuyệt vời đối với mỗi chúng ta phải không ạ. Trải qua 14 năm đi học và nay gần 21 tuổi mình muốn chia sẽ với các bạn về vấn đề này:\n\t1. Từ lớp 1 đến 12: Đéo có gì xảy ra cả các bạn ạ. Nó êm đềm như cách con thuyền đưa các bạn đi xa bờ, nó thằng như cách đéo thể cong được ý.\n\t2. Từ đại học đến nay: Mình bị thích 1 người con gái tuy nhiên vẫn không thấy cảm xúc gì mấy. Mình vẫn chưa tìm được một nửa chính xác của bản thân mình luôn mọi người ạ. Cảm thấy khá hụt hẫn nhưng thay vào đó mình lại tìm được nhiều tình yêu hơn trong học tập mọi người ạ. ĐIỀU ĐÓ CÓ NGHĨA LÀ ĐÉO CẦN TÌNH YÊU VẪN SỐNG TỐT. OK không ạ!!!!!!!!!!"
+    }
+]

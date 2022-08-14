@@ -1,0 +1,27 @@
+.header
+  .container
+    .row
+      .col-md-2.col-sm-8.col-7
+        a.header__logo(href='/')
+          img.header__logo--image(src='/images/logo-1.PNG' alt='logo')
+      .col-md-6.col-sm-0.col-0.header__name--website
+        span VVT BLOG - Chia sẻ kiến thức
+        
+      if user
+        .col-md-4.col-sm-4.col-5.header__login
+          a.btn.btn-outline-primary.btn-lg.header__btn.header__login--btn(href='/writeBlog') Viết blog
+          .header__user--image-box
+            img.header__user--image(src=`/images/users/${user.photo}`)
+            ul.header__user-act--list
+              li.header__user-act--item
+                a(href='/me') Trang cá nhân
+              li.header__user-act--item
+                a(href='#') Viết blog
+              li.header__user-act--item
+                a(href='#') Cài đặt
+              li.header__user-act--item
+                a(class = "btn-logout") Đăng xuất
+      else
+        .col-md-4.col-sm-4.col-5.header__unLogin
+          a.btn.btn-outline-info.btn-lg.header__btn(type='button' style='margin-right: 10px;' href='/login') Đăng nhập
+          a.btn.btn-outline-success.btn-lg.header__btn(type='button' href='/signup') Đăng kí

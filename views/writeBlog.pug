@@ -1,0 +1,21 @@
+extend base
+
+block content 
+    .main
+        .container
+            .row.main__write
+                form.col-12.form__write(action='' method='POST')
+                    .form-group
+                        label(for='name_blog') Tên bài viết
+                        input#name_blog.form-control(name='name blog' type='text' placeholder='Nhập tên bài viết ở đây' rules='required')
+                        span.form-message
+                    .form-group
+                        label(for='name_blog') Mô tả bài viết
+                        input#name_blog.form-control(name='description blog' type='text' placeholder='Nhập mô tả ' rules='required')
+                        span.form-message
+                    .form-group
+                        label(for='blog_main') Nội dung bài viết
+                        //- textarea#blog_main.form__main-blog(name='main blog' rows='10' rules='required')
+                        textarea#blogContent(name='blogContent' rules='required' rows='10' cols='80')
+                        span.form-message
+                    button.btn.btn-success.btn-lg.btn-block.btn_post_blog(type='submit') Gửi bài

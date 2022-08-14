@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/images/logo-1.PNG" rel="shortcut icon" type="image/x-icon">
+    <title>Blog | Home</title>
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets//css/base.css">
+    <link rel="stylesheet" href="./assets//css/main.css">
+    <!--Link CSS-->
+    
+    <!--Link FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--Link FONTS-->
+</head>
+<body>
+    <div class="app">
+        <!--HEADER-->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-8 col-7">
+                        <a class="header__logo" href="#">
+                            <img class="header__logo--image" src="./assets//images/logo-1.PNG" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-0 col-0 header__name--website">
+                        <span class="">VVT BLOG - Chia sẻ về kiến thức về công nghệ thông tin</span>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-5 header__login" >
+                        <button type="button" class="btn btn-outline-primary btn-lg header__btn header__login--btn">Viết Blog</button>
+                        <div class="header__user--image-box">
+                            <img class="header__user--image" src="./assets/images/user-default.jpg">
+                            <ul class="header__user-act--list">
+                                <li class="header__user-act--item"><a href="#">Trang cá nhân</a></li>
+                                <li class="header__user-act--item"><a href="#">Viết blog</a></li>
+                                <li class="header__user-act--item"><a href="#">Cài đặt</a></li>
+                                <li class="header__user-act--item"><a href="#">Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-5 header__unLogin">
+                        <button type="button" class="btn btn-outline-info btn-lg header__btn" style="margin-right: 10px;">Đăng nhập</button>
+                        <button type="button" class="btn btn-outline-success btn-lg header__btn">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--HEADER-->
+
+        <!--MAIN-->
+        <div class="main">
+            <div class="container">
+                <div class="row main__row">
+                    <div class=" col-lg-9 col-12 main__blogs">
+                        <span class="main__blogs--headerName">Bài viết nổi bật</span>
+                        <p class="main__blogs--headerPreview">Tổng hợp các bài viết chia sẻ về kinh nghiệm tự học lập trình online và các kỹ thuật lập trình nói chung.</p>
+                        <div class="row main--padding">
+                            <div class="col-12 main__blogs--border-card">
+                                <div class="main__blogs--card-author">
+                                    <a href="#" style="text-decoration: none !important">
+                                        <img src="./assets/images/user-default.jpg" alt="user default" class="main__blogs--card-author--image">
+                                        <span class="main__blogs--card-author--name">Lê Mạnh</span>
+                                    </a>
+                                </div>
+                                <div class="row main__blogs--card">
+                                    <div class="col-md-8 col-12 main__blogs--card-info">
+                                        
+                                        <a href="#" class="main__blogs--card-title">LM Theme | Cách tạo theme VSCode và Publish lên Marketplace</a>
+                                        <p class="main__blogs--card-description">Trong phần trước, mình đã cũng các bạn tìm hiểu về một cách setup phần mềm nhanh . Trong phần này, mình sẽ cùng các bạn...</p>
+                                        <div class="main__blogs--card-other">
+                                            <span class="main__blogs--card-other--topic">Javascript</span>
+                                            <span class="main__blogs--card-other--created">7 tháng trước</span>
+                                            <span class="main__blogs--card-other--timeRead">10 phút đọc</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <a href="#">
+                                            <div class=" main__blogs--card-image" style="background-image: url(./assets/images/blog-default.png);"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="main__pagination">
+                            <ul class="pagination pagination-lg">
+                              <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                              </li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-12 main__topics">
+                        <span class="main__topics--header">Các chủ đề được đề xuất</span>
+                        <ul class="main__topics--list">
+                            <a href="#" class="main__topics--item">Front-end / Mobile apps</a>
+                            <a href="#" class="main__topics--item">Back-end / Devops</a>
+                            <a href="#" class="main__topics--item">UI / UX / Design</a>
+                            <a href="#" class="main__topics--item">Other</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MAIN-->
+
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="container" style="padding-bottom: 30px;">
+                <div class="row" style="justify-content: space-around; border-top: 1px solid #f3f3f3">
+                    <div class="col-sm-3 col-12 pt-2" style="display: flex;
+                        flex-direction: column;">
+                            <a href="#">
+                                <img src="./assets/images/logo-1.PNG" alt="logo web" style="width: 50%">
+                            </a>
+                            <span style="padding-top: 5px; font-size: 1rem; font-weight: 500;">Cùng học tập - phát triển - có
+                                gấu
+                                - thành công</span>
+                    </div>
+                    
+                    <div class="footer__info">
+                        <div class="col-sm-9 col-12 pt-2" style="position: relative; display: flex;
+                        flex-direction: column;">
+                            <span style="font-size: 12px;
+                            font-weight: 500;">Thành viên phát triển: Vũ Văn Thái - Sinh viên khoa Công nghệ thông tin</span>
+                            <span style="    font-size: 18px;
+                            font-weight: 600;">Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia thành phố Hồ Chí Minh</span>
+                            <span style="font-size:10px;">Liên hệ: 20120579@student.hcmus.edu.vn - vuvanthai1410@gmail.com -
+                                0796512568 -
+                                fb.com/vvthai1410</span>
+                            <span style="    position: absolute;
+                            top: 100%;">© 2022 - VVT Blog - Vũ Văn Thái</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER-->
+    </div>
+
+    <!--Link JS BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/main.js"></script>
+    <!--Link JS BOOTSTRAP-->
+</body>
+</html>

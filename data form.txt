@@ -1,0 +1,110 @@
+Blog:
+<Nội dung chung>
+	- Tên blog
+	- Mô tả blog
+	- Thời gian tạo blog
+	- Thời gian đọc hết blog
+	- Ảnh mô tả blog
+	- Tên tác giả (lưu id của thằng tác giả rồi khi truy vấn thì lấy tên ra)
+	- Loại chủ đề
+<Nội dung chi tiết>
+	- Tương tự những phần như trên và thêm
+	- Nội dung blog (cơ bản đầu tiên chỉ là nội dung toàn chữ, sau này rồi nâng cấp lên)
+	- Số lượt tương tác (thích và bình luận)
+	- Số lượt tương, Phần bình luận là sẽ sử dụng một cơ chế kết nối trong bài học
+	- Sẽ dùng một biến để xác định xem có tương tác gì không
+	- Các bài đăng khác của cùng tác giả
+
+!!! Loại chủ đề
+	- Machine Learning: ml
+	- Deep Learning: dl
+	- Computer Science: cs
+	- Web developer: wd
+	- Data Science: ds
+	- Mobile apps: ma
+	- Other: other
+
+!!! Việc xây dựng các key request sẽ được dùng lại cho việc truy vấn tìm các bài viết của người viết
+
+
+
+"topic": "machine-learning",
+                "createAt": "2022-08-02T09:35:54.736Z",
+                "imageCover": "blog-1.png",
+                "deleted": false,
+                "nLiked": 3,
+                "nComment": 3,
+                "_id": "5c88fa8cf4afda39709c2955",
+                "name": "Cách sử dụng Routing trong ReactJS",
+                "description": "Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về việc xác định Routing.",
+                "timeRead": 7,
+                "author": {
+                    "photo": "user-1.png",
+                    "_id": "62e638b52e1abe09b053e2d8",
+                    "name": "Vũ Văn Thái",
+                    "id": "62e638b52e1abe09b053e2d8"
+                },
+                "mainContent": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "slug": "cach-su-dung-routing-trong-reactjs",
+                "__v": 0,
+                "id": "5c88fa8cf4afda39709c2955"
+
+{
+  topic: 'web-developer',
+  createAt: 2022-08-02T09:35:54.736Z,
+  imageCover: 'blog-11.png',
+  deleted: false,
+  nLiked: 2,
+  nComment: 1,
+  _id: 5c88fa8cf4afda39709c2965,
+  name: 'Vấn đề tình cảm thời sinh viên',
+  description: 'Trong bài viết này mình sẽ giới thiệu cho các bạn các phần cơ bản về câu chuyện yêu đương của mình trong thời học sinh(sinh viên)',
+  timeRead: 3,
+  author: {
+    photo: 'user-1.png',
+    _id: 62e638b52e1abe09b053e2d8,
+    name: 'Vũ Văn Thái',
+    id: '62e638b52e1abe09b053e2d8'
+  },
+  mainContent: 'Tình yêu học sinh là một cái gì đó rất là tuyệt vời đối với mỗi chúng ta phải không ạ. Trải qua 14 năm đi học và nay gần 21 tuổi mình muốn chia sẽ với các bạn về vấn đề này:\n' 
++
+    '\t1. Từ lớp 1 đến 12: Đéo có gì xảy ra cả các bạn ạ. Nó êm đềm như cách con thuyền đưa các bạn đi xa bờ, nó thằng như cách đéo thể cong được ý.\n' +
+    '\t2. Từ đại học đến nay: Mình bị thích 1 người con gái tuy nhiên vẫn không thấy cảm xúc gì mấy. Mình vẫn chưa tìm được một nửa chính xác của bản thân mình luôn mọi người ạ. Cảm thấy khá hụt hẫn nhưng thay vào đó mình lại tìm được nhiều tình yêu hơn trong học tập mọi người ạ. ĐIỀU ĐÓ CÓ NGHĨA LÀ ĐÉO CẦN TÌNH YÊU VẪN SỐNG TỐT. OK không ạ!!!!!!!!!!',
+  slug: 'van-de-tinh-cam-thoi-sinh-vien',
+  __v: 0,
+  interactive: [
+    {
+      comment: 'Ỏ ỏ orooooooooooooo, hay thế nhở',
+      liked: 1,
+      createAt: 2022-08-02T09:46:00.901Z,
+      _id: 62e8f266c014f5081c6dc0f4,
+      user: [Object],
+      blog: [Object],
+      __v: 0,
+      id: '62e8f266c014f5081c6dc0f4'
+    },
+    {
+      comment: '',
+      liked: 1,
+      createAt: 2022-08-02T09:46:00.901Z,
+      _id: 62e8f2bfc014f5081c6dc10d,
+      user: [Object],
+      blog: [Object],
+      __v: 0,
+      id: '62e8f2bfc014f5081c6dc10d'
+    }
+  ],
+  id: '5c88fa8cf4afda39709c2965'
+}
+
+//- script(src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin")
+    //- script(src="https://cdn.tiny.cloud/1/922snlfu7usmheiq5jeyho2ffzxj63roozqblouwa0aj0o4c/tinymce/6/tinymce.min.js" referrerpolicy="origin")
+    //- script.
+    //-     tinymce.init({
+    //-     selector: 'textarea',
+    //-     plugins: 'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker',
+    //-     toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents',
+    //-     toolbar_mode: 'floating',
+    //-     tinycomments_mode: 'embedded',
+    //-     tinycomments_author: 'Author name',
+    //-     });

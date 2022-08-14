@@ -1,0 +1,163 @@
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9108",
+    "comment": "Bài viết này thật thú vị",
+    "liked": true,
+    "user": "62e638b52e1abe09b053e2d8",
+    "blog": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a355b14eb5c17645c9109",
+    "comment": "Bạn có thật nhiều ý tưởng hay vãi lòn",
+    "liked": true,
+    "user": "62e638b52e1abe09b053e2d8",
+    "blog": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a359914eb5c17645c910a",
+    "comment": "Chúc bạn có nhiều ý tưởng hay hơn nữa cho chúng tô",
+    "liked": false,
+    "user": "62e638b52e1abe09b053e2d8",
+    "blog": "5c88fa8cf4afda39709c2958"
+  },
+  {
+    "_id": "5c8a35b614eb5c17645c910b",
+    "comment": "Bạn có thể kết bạn fb để chúng ta cùng nhau chia sẻ thêm một vài vấn đề nữa không",
+    "liked": true,
+    "user": "62e638b52e1abe09b053e2d8",
+    "blog": "5c88fa8cf4afda39709c2959"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910c",
+    "comment": "Mình vẫn chưa hiểu được phần giải thích của bạn, bạn có thể cho mình thêm vài lời khuyên tại chỗ đó được không",
+    "liked": true,
+    "user": "62e639962e1abe09b053e2da",
+    "blog": "5c88fa8cf4afda39709c2959"
+  },
+  {
+    "_id": "5c8a368c14eb5c17645c910d",
+    "comment": "Bài viết này không hợp lý về mọi vấn đề mà bạn đặt ra",
+    "liked": false,
+    "user": "62e639962e1abe09b053e2da",
+    "blog": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a36a014eb5c17645c910e",
+    "comment": "",
+    "liked": true,
+    "user": "62e639962e1abe09b053e2da",
+    "blog": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a36b714eb5c17645c910f",
+    "comment": "Bài viết như loz",
+    "liked": false,
+    "user": "62e639962e1abe09b053e2da",
+    "blog": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a379a14eb5c17645c9110",
+    "comment": "Tuyệt vời anh zai. Mong anh ra nhiều bài viết hơn trong tương lai.",
+    "liked": true,
+    "user": "62e63b41702d7b07ac6c2e07",
+    "blog": "5c88fa8cf4afda39709c2963"
+  },
+  {
+    "_id": "5c8a37b114eb5c17645c9111",
+    "comment": "Thật may mắn khi đọc được bài viết này của bạn",
+    "liked": true,
+    "user": "62e63b41702d7b07ac6c2e07",
+    "blog": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a37dd14eb5c17645c9113",
+    "comment": "Ỏ ỏ orooooooooooooo, hay thế nhở",
+    "liked": true,
+    "user": "62e63b41702d7b07ac6c2e07",
+    "blog": "5c88fa8cf4afda39709c2965"
+  },
+  {
+    "_id": "5c8a37f114eb5c17645c9114",
+    "comment": "Mình nghĩ vấn đề này của bạn đang được giải thích theo một cách không hợp lý.",
+    "liked": false,
+    "user": "62e63b41702d7b07ac6c2e07",
+    "blog": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a382d14eb5c17645c9116",
+    "comment": "Amazing good job",
+    "liked": true,
+    "user": "62e6528a0d13553c6c08694f",
+    "blog": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a387214eb5c17645c9119",
+    "comment": "Tình yêu anh dành cho em là nhiều nhất. Nhưng em đáp lại anh là gì? Là cái quần què :(",
+    "liked": false,
+    "user": "62e6528a0d13553c6c08694f",
+    "blog": "5c88fa8cf4afda39709c2959"
+  },
+  {
+    "_id": "5c8a38c714eb5c17645c911b",
+    "comment": "",
+    "liked": true,
+    "user": "62e6528a0d13553c6c08694f",
+    "blog": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a38da14eb5c17645c911c",
+    "comment": "",
+    "liked": true,
+    "user": "62e6528a0d13553c6c08694f",
+    "blog": "5c88fa8cf4afda39709c2965"
+  },
+  {
+    "_id": "5c8a38ed14eb5c17645c911d",
+    "comment": "",
+    "liked": true,
+    "user": "62e6528a0d13553c6c08694f",
+    "blog": "5c88fa8cf4afda39709c2958"
+  },
+  {
+    "_id": "5c8a390d14eb5c17645c911e",
+    "comment": "",
+    "liked": true,
+    "user": "62e6528a0d13553c6c08694f",
+    "blog": "5c88fa8cf4afda39709c2963"
+  },
+  {
+    "_id": "5c8a391f14eb5c17645c911f",
+    "comment": "",
+    "liked": true,
+    "user": "62e6528a0d13553c6c08694f",
+    "blog": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a395b14eb5c17645c9120",
+    "comment": "",
+    "liked": true,
+    "user": "62e639962e1abe09b053e2da",
+    "blog": "5c88fa8cf4afda39709c2963"
+  },
+  {
+    "_id": "5c8a399014eb5c17645c9121",
+    "comment": "",
+    "liked": true,
+    "user": "62e639962e1abe09b053e2da",
+    "blog": "5c88fa8cf4afda39709c2958"
+  },
+  {
+    "_id": "5c8a3a7014eb5c17645c9124",
+    "comment": "Buồn khi không còn em bên cạnh",
+    "liked": true,
+    "user": "62e63b41702d7b07ac6c2e07",
+    "blog": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a3aaa14eb5c17645c9127",
+    "comment": "No, I need you. But You don't care me",
+    "liked": false,
+    "user": "62e63b41702d7b07ac6c2e07",
+    "blog": "5c88fa8cf4afda39709c2961"
+  }
+]

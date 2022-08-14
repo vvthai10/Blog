@@ -1,0 +1,76 @@
+extend base
+
+block content 
+    .main
+        .container
+            .row.main__row
+                .col-lg-9.col-12.main__blogs
+                    span.main__blogs--headerName Bài viết nổi bật
+                    p.main__blogs--headerPreview Tổng hợp các bài viết chia sẻ về kinh nghiệm tự học lập trình online và các kỹ thuật lập trình nói chung.
+                    .row.main--padding
+                        each blog in blogs
+                            - const nowDate = new Date()
+                            - const timeCreated = (nowDate.getYear() - blog.createAt.getYear()) * 12 + (nowDate.getMonth() - blog.createAt.getMonth())
+                            .col-12.main__blogs--border-card
+                                .main__blogs--card-author
+                                    a(href=`/user/${blog.author.id}` style='text-decoration: none !important')
+                                        img.main__blogs--card-author--image(src=`/images/users/${blog.author.photo}` alt=`${blog.author.name}`)
+                                        span.main__blogs--card-author--name= blog.author.name
+                                .row.main__blogs--card
+                                    .col-md-8.col-12.main__blogs--card-info
+                                        a.main__blogs--card-title(href=`/blog/${blog.slug}`)= blog.name
+                                        p.main__blogs--card-description= blog.description
+                                        .main__blogs--card-other
+                                            span.main__blogs--card-other--topic= blog.topic
+                                            span.main__blogs--card-other--created= `${timeCreated} tháng trước`
+                                            span.main__blogs--card-other--timeRead= `${blog.timeRead} phút đọc`
+                                    .col-md-4.col-12
+                                        a(href='#')
+                                            .main__blogs--card-image(style=`background-image: url(/images/blogs/${blog.imageCover});`)
+                    nav.main__pagination
+                        - const isPageOne =  (page == 1 || page == undefined)
+                        - const isPageLast =  (page*1 == totalPage)
+                        - let index = 1 
+                        ul.pagination.pagination-lg
+                            if isPageOne 
+                                li.page-item.disabled
+                                    a.page-link(aria-label='Previous')
+                                        span(aria-hidden='true') &laquo;
+                                        span.sr-only= `Previous`
+                            else 
+                                li.page-item
+                                    a.page-link(href=`/?page=${page*1 - 1}` aria-label='Previous')
+                                        span(aria-hidden='true') &laquo;
+                                        span.sr-only Previous                 
+                                        
+                            while index <= totalPage 
+                                - const isPage = (index === page*1)
+                                if (!page) && (index === 1)
+                                    li.page-item.active
+                                                a.page-link= index
+                                else if isPage
+                                    li.page-item.active
+                                            a.page-link= index
+                                else
+                                    li.page-item
+                                            a.page-link(href=`/?page=${index}`)= index
+                                - index = index + 1
+
+                            if isPageLast 
+                                li.page-item.disabled
+                                    a.page-link(aria-label='Next')
+                                        span(aria-hidden='true') &raquo;
+                                        span.sr-only Next
+                            else 
+                                li.page-item
+                                    a.page-link(href=`/?page=${page*1 + 1}` aria-label='Next')
+                                        span(aria-hidden='true') &raquo;
+                                        span.sr-only Next 
+                                
+                .col-lg-3.col-12.main__topics
+                    span.main__topics--header Các chủ đề được để xuất
+                    ul.main__topics--list
+                        a.main__topics--item(href='#') Front-end / Mobile apps
+                        a.main__topics--item(href='#') Back-end / Devops
+                        a.main__topics--item(href='#') UI / UX / Design
+                        a.main__topics--item(href='#') Other
